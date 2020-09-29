@@ -1,0 +1,54 @@
+@keyframes slide{
+    from {
+      transform: translateY(300px) ;
+      /* width: 300%; */
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateY(0);
+      /* width: 100%; */
+    }
+    
+  }
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+body
+{
+    background: right url(img/422943-PE693S-815.jpg);
+}
+.title{
+    
+    font-family: 'Creepster', cursive;
+    font-size: 8em;
+    color: rgb(255, 255, 255);
+    text-shadow:3px 2px 5px white;
+    text-shadow: 20px 70px 10px black ;
+    animation: slide 5s;
+}
+.phrase{
+    position: absolute;
+    
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    background: white;
+    padding: 20px;
+    border-radius: 50px;
+    animation: slide 5s;
+}
+
+.kirby {
+margin-top: 50%;
+width: 300px;
+transform: scale(1.5) rotate(180deg)  ;
+transition: all 5s;
+    
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
